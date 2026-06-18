@@ -44,6 +44,11 @@
       }
       html {
         scroll-behavior: auto;
+        scrollbar-width: none; /* Firefox */
+      }
+
+      html::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Edge */
       }
 
       body {
